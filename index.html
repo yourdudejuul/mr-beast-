@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MrBeast Fan Page</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header class="header">
+        <h1>Welcome to the MrBeast Fan Page!</h1>
+    </header>
+    <nav class="navbar">
+        <a href="#videos">Videos</a>
+        <a href="#games">Games</a>
+        <a href="#gallery">Gallery</a>
+    </nav>
+    <main>
+        <!-- Videos Section -->
+        <section id="videos" class="section">
+            <h2>Latest Videos</h2>
+            <div class="video-container">
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/jNQXAC9IVRw" frameborder="0" allowfullscreen></iframe>
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/Ucxp4RO4-xE" frameborder="0" allowfullscreen></iframe>
+            </div>
+        </section>
+        <!-- Games Section -->
+        <section id="games" class="section">
+            <h2>MrBeast Games</h2>
+            <div id="clicker-game">
+                <h3>Click to Donate!</h3>
+                <button onclick="addDonation()">Donate</button>
+                <p>Donations: <span id="score">0</span></p>
+            </div>
+        </section>
+        <!-- Gallery Section -->
+        <section id="gallery" class="section">
+            <h2>MrBeast Photo Gallery</h2>
+            <div class="gallery">
+                <img src="mrbeast1.jpg" alt="MrBeast Photo 1">
+                <img src="mrbeast2.jpg" alt="MrBeast Photo 2">
+                <img src="mrbeast3.jpg" alt="MrBeast Photo 3">
+            </div>
+        </section>
+    </main>
+    <footer>
+        <p>Created by a MrBeast fan. Not affiliated with MrBeast.</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
